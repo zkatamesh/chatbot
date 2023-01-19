@@ -6,13 +6,38 @@
   </category>
   
   <category>
-    <pattern>HI</pattern>
+    <pattern>HI ^</pattern> 
     <template>Hi, I am chatBot!</template>
   </category>
   
-    <category>
-    <pattern>HELLO</pattern>
+ <category>
+    <pattern>HELLO ^</pattern>
     <template>Hi, I am chatBot!</template>
+ </category>
+  
+ <category>
+    <pattern>I AM *</pattern>
+    <template>Nice to meet you, <set name="name"><star/></set></template>
+ </category>
+ 
+ <category>
+    <pattern>MY NAME IS *</pattern>
+    <template><srai>I AM</srai></template>
+ </category>
+  
+  <category>
+    <pattern>WHO ARE YOU</pattern>
+    <template><srai>HI ^</srai></template>
   </category>
+  
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template><srai>HI ^</srai></template>
+  </category>
+  
+  <category>
+    <pattern>_ UR *</pattern>
+    <template><srai><star/> YOUR <star index="2"/></srai></template>
+ </category>
   
 </aiml>
