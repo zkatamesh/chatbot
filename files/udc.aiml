@@ -39,5 +39,10 @@
     <pattern>_ UR *</pattern>
     <template><srai><star/> YOUR <star index="2"/></srai></template>
  </category>
+ 
+  <category>
+    <pattern>_ WHAT'S *</pattern>
+    <template><srai><star/> WHAT IS <star index="2"/></srai></template>
+  </category>
   
 </aiml>
