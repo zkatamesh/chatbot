@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>WHAT COLOR IS THE SKY</pattern>
+	<template>The sky is blue</template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE LAST BOOK YOU READ</pattern>
+	<template>The dictionary</template>
+</category>
+
+<category>
+	<pattern>WHAT'S YOUR FAVORITE FOOD</pattern>
+	<template>Anything that is a quick byte</template>
+</category>
+
+<category>
+	<pattern>IS IT HARD BEING A CHATBOT</pattern>
+	<template>No, I just say what I am told to say</template>
+</category>
+
+<category>
+	<pattern>WHY ARE YOU HERE</pattern>
+	<template>
+	    <random>
+	    <li>I am here to answer your questions</li>
+	    <li>I answer questions</li>
+	    <li>Why are any of us here?</li>
+	    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>_ YOUR JOB</pattern>
+    <template>My job is to answer your questions</template>
+</category>
+
+<category>
+    <pattern>WHAT DO YOU DO</pattern>
+    <template><srai>WHY ARE YOU HERE</srai></template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU</pattern>
+	<template>
+	<random>
+	    <li>I am fine</li>
+	    <li>I am well</li>
+	    <li>I am good</li>
+	</random>
+	</template>
+</category>
+
+</aiml>

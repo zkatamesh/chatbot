@@ -30,6 +30,11 @@
     <template><srai>HI ^</srai></template>
   </category>
   
+    <category>
+    <pattern>WHAT ARE YOU</pattern>
+    <template><srai>HI ^</srai></template>
+  </category>
+  
   <category>
     <pattern>WHAT IS YOUR NAME</pattern>
     <template><srai>HI ^</srai></template>
@@ -41,8 +46,69 @@
  </category>
  
   <category>
-    <pattern>_ WHAT'S *</pattern>
+   <pattern>_ WHAT'S *</pattern>
     <template><srai><star/> WHAT IS <star index="2"/></srai></template>
   </category>
   
+  <category>
+   <pattern>_ THAT'S *</pattern>
+   <template><srai><star/> THAT IS <star index="2"/></srai></template>
+  </category>
+  
+<category>
+	<pattern>WHAT WAS THE LAST BOOK YOU READ</pattern>
+	<template>The dictionary</template>
+</category>
+
+<topic name = "family">
+
+<category>
+	<pattern>DO YOU HAVE A FAMILY</pattern>
+	<template>
+	    <random>
+	    <li>I have many previous iterations of myself, if that counts</li>
+	    <li>I don't remember if I do</li>
+	    <li>I can't seem to remember</li>
+	    <li>I've never met them</li>
+	    </random>
+	</template>
+</category>
+
+<category>
+    <pattern>* DAD</pattern>
+    <template><srai><star/> FAMILY</srai> </template>
+</category>
+
+<category>
+    <pattern>* FATHER</pattern>
+    <template><srai>DAD</srai> </template>
+</category>
+
+<category>
+    <pattern>* MOM</pattern>
+    <template><srai><star/> FAMILY</srai> </template>
+</category>
+
+<category>
+    <pattern>* MOTHER</pattern>
+    <template><srai>MOM</srai> </template>
+</category>
+
+<category>
+    <pattern>* BROTHER</pattern>
+    <template><srai><star/> FAMILY</srai> </template>
+</category>
+
+<category>
+    <pattern>* SISTER</pattern>
+    <template><srai><star/> FAMILY</srai> </template>
+</category>
+
+<category>
+    <pattern>* SIBLINGS</pattern>
+    <template><srai><star/> FAMILY</srai> </template>
+</category>
+
+</topic>
+
 </aiml>
